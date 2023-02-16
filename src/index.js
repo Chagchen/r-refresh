@@ -2,7 +2,7 @@
 import ReactDOM from 'react-dom/client';
 import React from 'react';
 import './index.css';
-import App from './components/App.js';
+import App from './App.js';
 
 //create rootElement and get root
 const rootElement = document.getElementById('root');

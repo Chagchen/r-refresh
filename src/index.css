@@ -16,9 +16,9 @@
   cursor: pointer;
   border-radius: 4px;
   background-color:#ef0505 ;
-  color: white;
-  
+  color: white; 
 }
+
 .card{
   background-color: rgb(230, 244, 245);
   border-radius: 5px;
@@ -34,6 +34,16 @@ h1 {
 }
 h2 {
   color: #1b11d5;
+}
+
+.btn--alt {
+  font: roboto;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color:#f3e84b ;
+  border-style: 1px solid;
+  
 }
 
 .btn--alt:hover {
