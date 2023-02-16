@@ -5,6 +5,8 @@
 
 
 import Todo from "./components/Todo";
+import Modal from "./components/Modal";
+import Backdrop from "./components/Backdrop";
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
       <Todo text="spanish" />
       <Todo text="running" />
       <Todo text="code" />
-
+      <Modal />
+      <Backdrop />
     </div>
   );
 }
