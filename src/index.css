@@ -10,14 +10,6 @@
   margin: 4px;
   background-color: #dfdfdfdf;
 }
-.btn {
-  font: roboto;
-  padding: 0.5rem 1.5rem;
-  cursor: pointer;
-  border-radius: 4px;
-  background-color:#ef0505 ;
-  color: white; 
-}
 
 .card{
   background-color: rgb(230, 244, 245);
@@ -26,7 +18,6 @@
   width: 20rem;
   box-shadow: 0 1px 5px rgba(0, 0 ,0,2);
   margin-bottom: 4%;
-
 }
 
 h1 {
@@ -36,18 +27,42 @@ h2 {
   color: #1b11d5;
 }
 
+.overtext {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+.btn {
+  font: roboto;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color:#ef0505 ;
+  border: 1px solid #ef0505;
+  color: white; 
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: #b7183d;
+}
+
 .btn--alt {
   font: roboto;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
   border-radius: 4px;
-  background-color:#4bf3dd ;
+  background-color: transparent;
   border-style: 1px solid;
+  color: black;
+  margin-right: 5px;
   
 }
 
 .btn--alt:hover {
-  background-color: #f8dae9;
+  background-color: #fcabb9;
 }
 
 .actions {
@@ -57,7 +72,7 @@ h2 {
 .backdrop {
   position: fixed;
   z-index: 1;
-  background-color: #d99bb8;
+  background-color: #f6f0f0;
   width: 100%;
   height: 100vh;
   top: 0;
@@ -65,7 +80,7 @@ h2 {
 }
 
 .modal {
-  box-shadow: 0 1px 5px rgba(65, 60, 60, 0.2);
+  box-shadow: 0 1px 5px rgba(3, 2, 2, 0.2);
   border-radius: 6px;
   padding: 1rem;
   text-align: center;
@@ -74,5 +89,6 @@ h2 {
   left: calc(50% - 15rem);
   width: 30rem;
   z-index: 10;
+
 }
 
